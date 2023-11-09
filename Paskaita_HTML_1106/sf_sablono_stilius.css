@@ -1,15 +1,11 @@
-body{
-    width: 100%;
-    
-}
-
-   
 .invoice{
     text-align: left;
     text-transform: uppercase;
     font-family: Arial;
-    font-size: 100px;
+    font-size: 80px;
+    width: 100%;
 }
+
 th{
     text-align:left;
     text-transform: capitalize;
@@ -19,40 +15,38 @@ th{
 .pirma_lentele
 {
     width: 100%;
-    border: 3px solid black;
+    
 }
 .antra_lentele{
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 100px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    font-weight:lighter;
-    border: 3px solid black;
-    
-}
-.underline{
-    border-bottom: 2px;
-}
-.trecia_lentele{
-    width: 100%;
-    border: 3px solid black;
-    
+    font-weight:lighter;   
 }
 .melyna{
     text-align: center;
     text-transform: uppercase;
     background-color: rgb(109, 109, 227);
     color: white;
-    border-collapse: collapse;
+    
 }
-.logotipas {
-    border-bottom: 10px solid black;
-    border-right: 10px solid black;
-    height: 10%;
-    width: 10%;
-}
-.zebras{
-    tr:nth-child(even) {
+.trecia_lentele{
+width: 100%;
+padding-top: 100px;
+tr:nth-child(even) {
         background-color: #f2f2f2;
-      }
+      }  
+}
+
+
+.total{
+    padding-top: 30px;
+    padding: left 600px;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: right;
+    
 }
