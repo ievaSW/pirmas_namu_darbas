@@ -1,0 +1,46 @@
+h1,h3
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.diena{
+    border-collapse: collapse;
+}
+.pagrindine {
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: rgb(138, 184, 138);
+    margin-left: auto;
+    margin-right:auto;
+}
+.menuo {
+    
+    width:100%;
+   
+}
+
+td {
+    text-align: center;
+}
+.pagrindine_eilute{
+    border-bottom: 5px solid black;
+    width: 100%;
+}
+th{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(45, 44, 44);
+    padding-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.nereikalinga_eilute{
+    color: transparent;
+}
+body{
+    background-color: rgb(212, 102, 102);
+}
+.raudona{
+    color:rgb(219, 81, 81);
+}
